@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Decentralized Lottery System
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project is a decentralized lottery system built on the Ethereum blockchain. In this case, I used the Chainlink oracle's random number generator function. Because the project is built with these features, no user can tamper with the lottery system's results or the selection of a winner. The project can be used to run transparent and fair lottery trials.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
